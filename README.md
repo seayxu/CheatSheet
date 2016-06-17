@@ -1,34 +1,14 @@
 # Cheat Sheet
 
-## Back-End
+## Tools
 
-* ### .NET
+### Markdown
+[Common Syntax For Markdown](./files/markdown-general-common-syntax.md)
 
-* ### C/C++
+### Emmet
 
-* ### Java
+  [emmet.io](http://emmet.io/)
 
-* ### Android
+  >Emmet — the essential toolkit for web-developers.
 
-* ### IOS
-
-## Front-End
-
-* ### HTML
-
-* ### CSS
-
-* ### LESS
-
-* ### SCSS
-
-* ### JavaScript
-
-* ### JQuery
-
-* ### Bootstrap
-
-* ### Node.js
-
-
-** Tip:Finishing **
+  >Emmet is a plugin for many popular text editors which greatly improves HTML & CSS workflow.
