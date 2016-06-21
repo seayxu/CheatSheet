@@ -330,7 +330,13 @@ C. 枚举列表3
 文档测试块是交互式的Python会话，以 **>>>** 开始，一个空行结束。
 
 ```
+>>> print "This is a doctest block."
+This is a doctest block.
+```
 
+```
+>>> print "This is a doctest block."
+This is a doctest block.
 ```
 
 # 表格(Tables)
@@ -585,6 +591,8 @@ __ SeayXu_
 ```
 
 关于 [指令(Directives)](./reStructuredText-Directives-Syntax.md)，在下一篇中专门做语法说明。
+
+如果有不正确的地方，希望你能指出。
 
 [github]:https://github.com/SeayXu/
 [rstqs]:http://docutils.sourceforge.net/docs/user/rst/quickref.html
