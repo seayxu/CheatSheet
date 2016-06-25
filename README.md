@@ -2,6 +2,11 @@
 
 ## Tools
 
+### Git
+- [常用Git教程](./files/git-tutorial.md)
+- [Git - Documentation](https://git-scm.com/doc)
+- [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+
 ### Markdown
 - [Common Syntax For Markdown](./files/markdown-general-common-syntax.md)
 - [Daring Fireball: Markdown Syntax Documentation](http://daringfireball.net/projects/markdown/syntax)
