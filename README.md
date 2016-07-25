@@ -1,5 +1,28 @@
 # Cheat Sheet
 
+## .NET
+
+### AutoMapper
+-[AutoMapper Index](http://automapper.org/)
+-[AutoMapper GitHub](https://github.com/AutoMapper/AutoMapper)
+
+### .NET Core Tools
+- [Telemetry](./dotnet/telemetry.md)
+- [Extensibility Model](./dotnet/extensibility.md)
+- [Test communication protocol](./dotnet/test-protocol.md)
+- [Continuous Integration](./dotnet/using-ci-with-cli.md)
+- [dotnet](./dotnet/dotnet.md)
+- [dotnet-new](./dotnet/dotnet-new.md)
+- [dotnet-restore](./dotnet/dotnet-restore.md)
+- [dotnet-run](./dotnet/dotnet-run.md)
+- [dotnet-build](./dotnet/dotnet-build.md)
+- [dotnet-test](./dotnet/dotnet-test.md)
+- [dotnet-pack](./dotnet/dotnet-pack.md)
+- [dotnet-publish](./dotnet/dotnet-publish.md)
+- [dotnet-install-script](./dotnet/dotnet-install-script.md)
+- [project.json](./dotnet/project-json.md)
+- [global.json](./dotnet/global-json.md)
+
 ## Tools
 
 ### Git
@@ -20,10 +43,12 @@
 - [reStructuredText Directives](http://docutils.sourceforge.net/docs/ref/rst/directives.html)
 - [Online reStructuredText editor](http://rst.ninjs.org/)
 
+### JSON
+
+- [jsonutils](http://jsonutils.com/)
+- [json2csharp](http://json2csharp.com/)
+
 ### Emmet
-
   [emmet.io](http://emmet.io/)
-
   >Emmet — the essential toolkit for web-developers.
-
   >Emmet is a plugin for many popular text editors which greatly improves HTML & CSS workflow.
