@@ -13,22 +13,22 @@ ms.assetid: f2b312bb-f80b-4b0d-9101-93908f06a6fa
 ---
 
 # .NET Core Tools Telemetry
-# .NET Core 工具遥测
+# .NET Core 工具遥测（应用信息收集）
 
 The .NET Core Tools include a [telemetry feature](https://github.com/dotnet/cli/pull/2145) that collects usage information. It’s important that the .NET Team understands how the tools are being used so that we can improve them.
 
-.NET Core 工具包括收集使用信息的 [遥测功能](https://github.com/dotnet/cli/pull/2145)。对于 .NET 团队了解如何使用的工具以便于我们可以提升它们是重要的。
+.NET Core 工具包含收集使用信息的 [遥测功能](https://github.com/dotnet/cli/pull/2145)。对于 .NET 团队了解如何使用工具以便于可以提升它们是重要的。
 
 The data collected is anonymous and will be published in an aggregated form for use by both Microsoft and community engineers under the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/).
 
-收集的数据是匿名的，并将发布一个汇总的形式，在 [知识共享署名许可协议](https://creativecommons.org/licenses/by/4.0/) 下为微软和社区工程师使用。
+收集的数据是匿名的，并将发布一个汇总的形式，在 [知识共享署名许可协议](https://creativecommons.org/licenses/by/4.0/) 下供微软和社区工程师使用。
 
 ## Scope
 ## 适用范围
 
 The `dotnet` command is used to launch both apps and the .NET Core Tools. The `dotnet` command itself does not collect telemetry. It is the .NET Core Tools that are run via the `dotnet` command that collect telemetry.
 
-`dotnet` 命令是用于启动应用程序和 .NET Core 工具。`dotnet` 命令它自己不会收集遥测数据。它是 `dotnet` 命令通过运行 .NET Core 工具来收集遥测数据。
+`dotnet` 命令是用于启动应用程序和 .NET Core 工具。`dotnet` 命令它本身不会收集遥测数据。它是 `dotnet` 命令通过运行 .NET Core 工具来收集遥测数据。
 
 .NET Core commands (telemetry is not enabled):
 .NET Core 命令（遥测未启用）：
@@ -49,7 +49,7 @@ The `dotnet` command is used to launch both apps and the .NET Core Tools. The `d
 
 The .NET Core Tools telemetry feature is enabled by default. You can opt-out of the telemetry feature by setting an environment variable DOTNET_CLI_TELEMETRY_OPTOUT (for example, `export` on macOS/Linux, `set` on Windows) to true (for example, “true”, 1).
 
-默认情况下 .NET Core 工具遥测功能是启用的。你可以选择退出遥感功能通过设置一个环境变量 DOTNET_CLI_TELEMETRY_OPTOUT （例如：在 macOS/Linux 上的 `export`，在 Windows 上的 `set`）为 true （例如：“true”，1）。
+默认情况下 .NET Core 工具遥测功能是启用的。你可以选择退出遥感功能，通过设置一个环境变量 DOTNET_CLI_TELEMETRY_OPTOUT （例如：在 macOS/Linux 上的 `export`，在 Windows 上的 `set`）为 true （例如：“true”，1）。
 
 ##Data Points
 ##数据点
@@ -82,7 +82,7 @@ The feature will not collect any personal data, such as usernames or emails. It 
 
 The Microsoft distribution of .NET Core is licensed with the [MICROSOFT .NET LIBRARY EULA](https://aka.ms/dotnet-core-eula). This includes the “DATA” section re-printed below, to enable telemetry.
 
-微软 .NET Core 分配的许可协议是 [MICROSOFT .NET LIBRARY EULA](https://aka.ms/dotnet-core-eula)。这个包括 “DATA” 部分重新输出在下面，为了启动遥感。
+微软 .NET Core 分配的许可协议是 [MICROSOFT .NET LIBRARY EULA](https://aka.ms/dotnet-core-eula)。为了启动遥感，这个包括 “DATA” 部分重新输出在下面。
 
 [.NET NuGet packages](https://www.nuget.org/profiles/dotnetframework) use this same license but do not enable telemetry (see [Scope](#scope) above).
 
@@ -98,11 +98,11 @@ operates as your consent to these practices.
 ```
 
 ## Disclosure
-## 公开说明
+## 说明
 
 The .NET Core Tools display the following text when you first run one of the commands (for example, `dotnet restore`). This "first run" experience is how Microsoft notifies you about data collection. This same experience also initially populates your NuGet cache with the libraries in the .NET Core SDK, avoiding requests to NuGet.org (or other NuGet feed) for these libraries.
 
-当你首次运行一个命令（例如：`dotnet restore`）时 .NET Core 工具显示下面的文字。这个“首次运行”体验是微软如何通知你关于数据收集。同样的体验也最初填充你的 NuGet 缓存在 .NET Core SDK 中，避免去 NuGet.org（或者其它 NuGet 源）请求这些库。
+当你首次运行一个命令（例如：`dotnet restore`）时， .NET Core 工具显示下面的文字。这个“首次运行”体验是微软如何通知你关于数据收集。同样的体验是，最初填充你的 NuGet 缓存在 .NET Core SDK 中，避免去 NuGet.org（或者其它 NuGet 源）请求这些库。
 
 ```text
 Welcome to .NET Core!
