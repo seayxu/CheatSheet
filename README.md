@@ -3,8 +3,8 @@
 ## .NET
 
 ### AutoMapper
--[AutoMapper Index](http://automapper.org/)
--[AutoMapper GitHub](https://github.com/AutoMapper/AutoMapper)
+- [AutoMapper Index](http://automapper.org/)
+- [AutoMapper GitHub](https://github.com/AutoMapper/AutoMapper)
 
 ### .NET Core Tools
 - [Telemetry](./dotnet/telemetry.md)

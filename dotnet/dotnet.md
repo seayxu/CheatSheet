@@ -21,6 +21,7 @@ dotnet 命令
 ## 名称
 
 dotnet -- General driver for running the command-line commands
+dotnet -- 运行命令行命令的一般驱动程序
 
 ## SYNOPSIS
 ## 概要
