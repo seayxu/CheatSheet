@@ -33,7 +33,7 @@ The `dotnet new` command provides a convenient way to initialize a valid .NET Co
 
 This command is invoked in the context of a directory. When invoked, the command will result in two main artifacts being dropped to the directory: 
 
-这个命令在目录的上下文中被调用。当调用时，该命令将导致两个主要的部件被放到到目录中：
+这个命令是在目录的上下文中被调用。当调用时，该命令将使两个主要的部件被放到到目录中：
 
 1. A `Program.cs` (or `Program.fs`) file that contains a sample "Hello World" program.
 2. A valid `project.json` file.
@@ -67,7 +67,7 @@ Type of the project. Valid values are `console`, `web`, `lib` and `xunittest`.
     
 Drops a C# project in the current directory.
 
-在当前目录放一个 C# 项目。
+在当前目录新建一个 C# 项目。
 
 `dotnet new --lang f#`
     

@@ -150,4 +150,4 @@ Specifies the location of the servicing index to use by the shared host when loa
 
 Specifies whether data about the .NET Core tools usage is collected and sent to Microsoft. **true** to opt-out of the telemetry feature (values true, 1 or yes accepted); otherwise, **false** (values false, 0 or no accepted). If not set, it defaults to **false**, that is, the telemetry feature is on.
 
-指定有关 .NET Core 工具的使用数据是否被收集并发送到 Microsoft。**true** 选择出的遥测功能（值为 true，1 或 yes 可接受）；否则，**false** （值为 false， 0 或者 no 可接受）。如果没有设置，默认是 **false**，以至于，遥测功能是开启的。
+指定有关 .NET Core 工具的使用数据是否被收集并发送到 Microsoft。**true** 选择出的遥测功能（值为 true，1 或 yes 可接受）；否则，**false** （值为 false， 0 或者 no 可接受）。如果没有设置，默认是 **false**，因此，遥测功能是开启的。
