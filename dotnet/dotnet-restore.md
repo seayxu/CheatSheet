@@ -37,7 +37,7 @@ The `dotnet restore` command uses NuGet to restore dependencies as well as proje
 By default, the restoration of dependencies and tools are done in parallel.
 
 `dotnet restore` 命令使用 NuGet 还原在 project.json 文件中被指定的依赖项，以及项目特定工具。
-默认情况下，依赖项和工具的恢复是并行完成的。
+默认情况下，依赖项和工具的还原是并行完成的。
 
 In order to restore the dependencies, NuGet needs the feeds where the packages are located. 
 Feeds are usually provided via the NuGet.config configuration file; a default one is present when the CLI tools are installed. 
@@ -93,6 +93,8 @@ Disables restoring multiple projects in parallel.
 `-f`, `--fallbacksource` [FEED]
 
 Specifies a fallback source that will be used in the restore operation if all other sources fail. All valid feed formats are allowed. Multiple fallback sources can be provided by specifying this option multiple times.
+
+当在还原操作如果其它所有源不能使用的情况下指定一个备用来源。所有有效的源格式都是允许的。多个备用源可以通过指定此选项多次来提供。
 
 `--configfile` [FILE]
 
