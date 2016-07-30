@@ -19,7 +19,8 @@ dotnet-run
 ## 名称 
 
 dotnet-run -- Runs source code 'in-place' without any explicit compile or launch commands.
-dotnet-run -- Runs source code 'in-place' without any explicit compile or launch commands.
+
+dotnet-run -- 没有任何明确的编译或启动命令运行“就地”（即运行命令的目录）源代码。
 
 ## SYNOPSIS
 ## 概要
@@ -33,9 +34,9 @@ The `dotnet run` command provides a convenient option to run your application fr
 It compiles source code, generates an output program and then runs that program. 
 This command is useful for fast iterative development and can also be used to run a source-distributed program (for example, a website).
 
-`dotnet run` 命令提供了一个方便的选项使用一个命令从源代码来运行你的应用程序。
+`dotnet run` 命令提供了一个方便的选项，就是使用一个命令从源代码来运行你的应用程序。
 它编译源码，生成一个输出程序，然后运行那个程序。
-这个命令对于快速迭代发展是有用的，也可以用于运行一个源码分布式程序（例如，网站）。
+这个命令对于快速迭代开发是有用的，也可以用于运行一个源码分布式程序（例如：网站）。
 
 This command relies on [`dotnet build`](dotnet-build.md) to build source inputs to a .NET assembly, before launching the program. 
 The requirements for this command and the handling of source inputs are all inherited from the build command. 
@@ -43,6 +44,7 @@ The documentation for the build command provides more information on those requi
 
 这个命令依赖 [`dotnet build`](dotnet-build.md) 将源代码生成输入到 .NET 程序集，之后运行该程序。
 这个命令和处理输入的源码的要求，都是继承自生成命令。
+该文档为生成命令的提供了有关这些要求的更多信息。
 
 Output files are written to the child `bin` folder, which will be created if it doesn't exist. 
 Files will be overwritten as needed. 
@@ -105,10 +107,16 @@ current directory if not specified.
 
 Runs the project in the current directory. 
 
+运行在当前目录的项目。
+
 `dotnet run --project /projects/proj1/project.json`
 
 Runs the project specified.
 
+运行指定的项目。
+
 `dotnet run --configuration Release -- --help`
 
 Runs the project in the current directory. The `--help` argument above is passed to the application being run, since the `--` argument was used.
+
+运行在当前目录的项目。由于 `--` 参数被使用，在上面的 `--help` 作为参数被传递到正在运行的应用程序。
