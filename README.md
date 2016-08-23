@@ -1,5 +1,13 @@
 # Cheat Sheet
 
+# Front-end
+
+## JavaScript
+
+- [JS Tips – A JS tip per day!](http://www.jstips.co/) | :cn: [中文版](http://www.jstips.co/zh_CN/) | :octocat: [github](https://github.com/loverajoel/jstips)
+
+# Back-end
+
 ## .NET
 
 ### AutoMapper
@@ -52,3 +60,9 @@
   [emmet.io](http://emmet.io/)
   >Emmet — the essential toolkit for web-developers.
   >Emmet is a plugin for many popular text editors which greatly improves HTML & CSS workflow.
+
+### Emoji
+
+- [Emoji-Cheat-Sheet](http://www.emoji-cheat-sheet.com)
+
+[gi]:https://assets-cdn.github.com/favicon.ico
